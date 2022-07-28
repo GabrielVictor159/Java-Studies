@@ -11,7 +11,5 @@ public class Executavel {
     x=leitura.nextInt();
     lista.adicionar(x);
     }
-    lista.organizar();
-    lista.mostrar();
     }
 }

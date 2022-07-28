@@ -6,8 +6,8 @@ public class vetor {
     int aux;
     int z=0;
     public void organizar(){
-    for(int i=0; i<=5; i++){
-    for(int f=0; f<4; f++){
+    for(int i=0; i<3; i++){
+    for(int f=0; f<3; f++){
     if(x[f]>x[f+1]){
     aux=x[f];
     x[f]=x[f+1];
@@ -22,7 +22,7 @@ public class vetor {
     }
     public void mostrar(){
     for(int i=0; i<5; i++){
-    System.out.println(""+x[i]+"\n");
+    System.out.println(""+x[i]+"/n");
     }
     }
 }
